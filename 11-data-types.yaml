@@ -10,7 +10,7 @@
     - "linux"
     - "shell"
     - "ansible"
-    Concepts: # dictionary or map 
+    concepts: # dictionary or map 
       cloud: AWS
       cm: ansible
   tasks:
