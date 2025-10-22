@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: frontend
+  hosts: frontend # which server you want to connect with
   #List of tasks/Collections/Modules
   tasks:
   - name: ping
