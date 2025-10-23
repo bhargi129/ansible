@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: print names
-    ansible.builtin.packages:
+    ansible.builtin.package:
       name: "{{ item }}" # item is reserved
       state: latest
     loop:
